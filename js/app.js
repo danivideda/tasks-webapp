@@ -40,6 +40,8 @@ function getTasks() {
     li.appendChild(document.createTextNode(task));
     // Create new link element
     const link = document.createElement('a');
+    // Change cursor to pointer
+    link.style.cursor = 'pointer';
     // Add class
     link.className = 'delete-item secondary-content';
     // Add icon
@@ -65,6 +67,8 @@ function addTask(e) {
     li.appendChild(document.createTextNode(taskInput.value));
     // Create new link element
     const link = document.createElement('a');
+    // Change cursor to pointer
+    link.style.cursor = 'pointer';
     // Add class
     link.className = 'delete-item secondary-content';
     // Add icon
