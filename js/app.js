@@ -112,13 +112,10 @@ function removeTask(e) {
 
   if (e.target.parentElement.classList.contains('delete-item')) {
     if (confirm('Nigga u sure?')) {
-      if (confirm('Like for real?')) {
-        alert('Aight then..');
-        e.target.parentElement.parentElement.remove();
+      e.target.parentElement.parentElement.remove();
 
-        // Remove from LocalStorage
-        removeTaskFromLocalStorage(e.target.parentElement.parentElement);
-      }
+      // Remove from LocalStorage
+      removeTaskFromLocalStorage(e.target.parentElement.parentElement);
     }
   }
 }
