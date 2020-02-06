@@ -20,7 +20,6 @@
   <title>Task List</title>
 </head>
 <body>
-  <script src="js/app.js"></script>
   <div class="container">
     <div class="row">
       <div class="col s12">
@@ -30,7 +29,7 @@
             <div class="row">
               <form id="task-form">
                 <div class="input-field col s12">
-                  <input type="text" name="task" id="task">
+                  <input type="text" name="task" id="task" autocomplete="off">
                   <label for="task">New Task</label>
                 </div>
                 <button type="submit" class="btn">Add Task</button>
@@ -55,5 +54,6 @@
   <!--JavaScript at end of body for optimized loading-->
   <script src="https://kit.fontawesome.com/9849271c60.js" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
