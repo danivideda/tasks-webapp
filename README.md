@@ -1,8 +1,6 @@
 # tasks-webapp
 
-Simple task webapp
-
-Using HTML5, CSS3, and JavaScript
+Simple task webapp with Materialize framework
 
 ## Result
 
